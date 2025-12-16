@@ -1,7 +1,7 @@
 ```markdown
 # Improving YOLO11n Model with knowledge Distillation approach
 
-### Our code is based on [yolo_distillation](https://github.com/username/repository) Github Repository with some modification to match with our project goals.
+### Our code is based on the [yolo_distillation GitHub repository](https://github.com/garlic-byte/yolov11_prune_distillation_v2), with modifications to match our project goals.
 
 
 ## Teacher and Student Model Comparison:
@@ -21,4 +21,4 @@
 | Distilled Student Model with CWD| 0.825 | 2.4M | 
 | Distilled Student Model with MGD| 0.826 | 2.4M | 
 
-Our model was then integrated into a gradio python app, and can be accessed on this link: [Fabric defect detector](http://13.60.184.181:7860/)
+Our model was then integrated into a gradio python app, and can be accessed on this link: [Fabric Defect Detector](http://13.60.184.181:7860/)
