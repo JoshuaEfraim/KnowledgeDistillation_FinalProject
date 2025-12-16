@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/AINEWPROJECT/Fabric-Defect-Combined-1/train/images
+val: /content/drive/MyDrive/AINEWPROJECT/Fabric-Defect-Combined-1/valid/images
+test: /content/drive/MyDrive/AINEWPROJECT/Fabric-Defect-Combined-1/test/images
+
+nc: 6
+names: ['Hole', 'Knot', 'Line', 'Seam', 'Stain', 'Stitch']
+
+roboflow:
+  workspace: efraim-vsbs1
+  project: fabric-defect-combined-zfyjo-pww8u
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/efraim-vsbs1/fabric-defect-combined-zfyjo-pww8u/dataset/1
